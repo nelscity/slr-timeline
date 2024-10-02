@@ -12,8 +12,6 @@ Easily create a static timeline webpage like my [Wikimedia timeline](https://www
 - [Deploy](#deploy)
   - [GitHub Pages](#github-pages)
   - [Other services](#other-services)
-- [Responsiveness](#responsiveness)
-- [Browser compatibility](#browser-compatibility)
 - [Under the hood](#under-the-hood)
 
 ![Screenshot of a timeline page with dummy content](docs/browser.png)
@@ -93,22 +91,6 @@ You can also look for tutorials on how to deploy a site built with [eleventy](ht
   - Create a new Static Site on Render
   - Set "build command" to `npm run-script build`
   - Set "publish directory" to `_site`
-
-## Responsiveness
-
-Timelines will render well on tablets:
-
-<img src="docs/tablet.png" alt="Screenshot rendered on a tablet device" width="500"/>
-
-or mobile devices:
-
-<img src="docs/phone.png" alt="Screenshot rendered on a phone" width="400"/>
-
-## Browser compatibility
-
-This should work well on all modern browsers. IE <9 is not supported.
-
-Without JavaScript enabled, the page degrades gracefully. However, posts will show in a single-column timeline and filters will not show.
 
 ## Under the hood
 
