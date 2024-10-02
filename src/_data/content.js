@@ -1,24 +1,24 @@
-const header = 'Timeline of coastal flooding and sea level rise events';
+const header = 'Timeline of coastal flooding and sea level rise events, potentially useful for pricing in SLR to your cost-benefit analysis of coastal construction, especially for long-term investments like infrastructure.';
 const footer = 'Manage our resources wisely!';
 const entries = [
   {
-    id: 'cat',
-    categories: ['cat'],
+    id: 'forecast',
+    categories: ['forecast'],
     color: 'green',
-    faicon: 'cat',
-    datetime: '2021-01-01 05:00',
-    title: 'Cats are very good',
+    faicon: 'forecast',
+    datetime: '3000-01-01 05:00',
+    title: 'SLR Maximum',
     image: {
       link: 'http://placekitten.com',
       src: 'http://placekitten.com/200/300',
       alt: 'A placeholder kitten',
       caption: 'Kitten!',
     },
-    body: "The best thing in the universe is a cardboard box. Chirp at birds catasstrophe for meowwww for hiding behind the couch until lured out by a feathery toy for morning beauty routine of licking self sugar, my siamese, stalks me (in a good way), day and night lick the other cats. Pushed the mug off the table shove bum in owner's face like camera lens or tickle my belly at your own peril i will pester for food when you're in the kitchen even if it's salad and grass smells good, licks your face, but hiiiiiiiiii feed me now.",
+    body: "80m (240') of SLR",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Cat',
-        linkText: 'Cat',
+        linkText: 'forecast',
       },
     ],
   },
