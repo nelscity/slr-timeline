@@ -1,5 +1,5 @@
-const header = 'Welcome to this wonderful example timeline.';
-const footer = 'A footer goes here.';
+const header = 'Timeline of coastal flooding and sea level rise events';
+const footer = 'Manage our resources wisely!';
 const entries = [
   {
     id: 'cat',
@@ -46,9 +46,9 @@ const entries = [
 ];
 
 // Page details
-const pageTitle = 'Static timeline generator'; // The title of the page that shows in the browser tab
-const pageDescription = 'A super fancy timeline'; // The description of the page for search engines
-const pageAuthor = 'Jane Doe'; // Your name
+const pageTitle = 'SLR Timeline'; // The title of the page that shows in the browser tab
+const pageDescription = 'A timeline of sea level rise and coastal flooding events'; // The description of the page for search engines
+const pageAuthor = 'nelscity'; // Your name
 
 // DON'T EDIT BELOW THIS LINE! --------------------------------------------------------------------
 const getFilters = (entries) => {
